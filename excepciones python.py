@@ -13,3 +13,14 @@ except:
     print("Oh dear, something went wrong...")
     
 print("3")
+
+try:
+    x=int(input("Enter a number"))
+    y=1/x
+    print(y)
+except ZeroDivisionError:
+    print("You must enter an integer value.")
+except:
+    print("oh dear, something went wrong...")
+print("THE END.")
+
